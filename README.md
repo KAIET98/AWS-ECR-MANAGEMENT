@@ -58,7 +58,7 @@ docker tag nginxdemos/hello<TU_ID_ACCOUNT>.dkr.ecr.eu-west-1.amazonaws.com/demos
 Entonces, la imagen tambien se ha cambido de nombre; como lo podemos comprobar esto? pues haciendo lo sigueinte: 
 
 ```
-docker push 070307590085.dkr.ecr.eu-west-1.amazonaws.com/demostephane:latest
+docker push <TU_ACCOUNT_ID>.dkr.ecr.eu-west-1.amazonaws.com/demostephane:latest
 
 ```
 Es suficientemente inteligente como para subir lo úlitmo
